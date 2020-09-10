@@ -11,6 +11,8 @@ inoremap { {}<ESC>ha
 
 inoremap ( ()<ESC>ha
 
+autocmd vimenter * NERDTree
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -25,6 +27,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 
 Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'preservim/nerdtree'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
