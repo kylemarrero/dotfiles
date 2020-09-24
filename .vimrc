@@ -3,6 +3,7 @@ syntax on
 set number
 set autoindent
 
+set shiftwidth=2 softtabstop=2 expandtab
 
 let g:ycm_global_ycm_extra_conf = '$HOME/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
